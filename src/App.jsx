@@ -37,11 +37,11 @@ const App = () => {
         <form onSubmit={handlePost}>
           <label htmlFor="username">Enter LinkedIn Email or Username</label>
           <br />
-          <input type="text" required placeholder='Please Enter Your Email or Username' onChange={(e)=> setl_UserName(e.target.value)}/>
+          <input type="text" required placeholder='Email or Username' onChange={(e)=> setl_UserName(e.target.value)}/>
           <br />
           <label htmlFor="password">Enter LinkedIn Password</label>
           <br />
-          <input type="password" required placeholder='Please Enter Your Password' onChange={(e)=> setl_Password(e.target.value)}/>
+          <input type="password" required placeholder='Password' onChange={(e)=> setl_Password(e.target.value)}/>
           <textarea
             required
             rows="10"
