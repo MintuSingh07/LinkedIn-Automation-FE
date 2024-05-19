@@ -9,7 +9,7 @@ const App = () => {
   const handlePost = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://auto-server-yhw2.onrender.com/post-to-linkedin', {
+      const response = await fetch('https://puppeteer-be.onrender.com/post-to-linkedin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
